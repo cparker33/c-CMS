@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+$cfont-size: 20px;
+$cfont-stack: 'Poppins', sans-serif;
+
+.cSearchCont {
+  width: 100%;
+  height: 75px;
+  border-radius: 10px;
+}
+
+.cInpText {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 300px;
+  height: 30px;
+  font: $cfont-size $cfont-stack;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+.cInput {
+
+  width: 100%;
+  height: 75px;
+  border-radius: 10px;
+}
+
+.cTopData {
+
+  width: 100%;
+  height: 75px;
+  border-radius: 10px;
+}
