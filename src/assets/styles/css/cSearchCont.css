@@ -16,7 +16,26 @@
 .cInput {
   width: 100%;
   height: 75px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row; }
+
+.cSearchLabel {
+  color: #EEE;
+  font: 20px "Poppins", sans-serif; }
+
+.cSearchInpCont {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.cSearchCheck {
+  margin-top: 20px; }
+
+.cSearchCheckBox {
+  margin-top: 10px;
+  margin-right: 10px; }
 
 .cTopData {
   width: 100%;

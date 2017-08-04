@@ -6,17 +6,25 @@ class SearchCont extends Component {
     return (
       <div className="cSearchCont">
         <div className="cInput">
-          <div>
-          <input className="cInpText" type="text" placeholder="Search..." />
+          <div className="cSearchInpCont">
+            <input className="cInpText" type="text" placeholder="Search..." />
+            </div>
+          <div className="cSearchInpCont cSearchCheck">
+            <input className="cSearchCheckBox" type="checkbox" id="cbid_01" />
+            <label className="cSearchLabel" for="cbid_01">Label</label>
           </div>
-          
+          <div className="cSearchInpCont cSearchCheck">
+            <input className="cSearchCheckBox" type="checkbox" id="cbid_02" />
+            <label className="cSearchLabel" for="cbid_02">Label</label>
+          </div>
         </div>
+
         <div className="cTopData">
 
         </div>
             
           
-        </div>
+      </div>
     )
   }
 }
